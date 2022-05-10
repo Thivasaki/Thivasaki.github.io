@@ -35,32 +35,41 @@ a{
     text-align: center;
 }
 
+.block{
+    max-width: 75%;
+    display: inline-block;
+    padding-left: 700px;
+    padding-top: 100px;
+    border: 10px solid #003824;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
 img{
-    width: 600px;
-    float: right;
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    padding: 10px;
+    background-color: #6228b9; 
 
 }
 
-
-.coluna-meio{
-    width: 50%;
-    float: left;
-}
-
-.coluna-lado{
-    width: 50%;
-    float: left
-
+.adicionais{
+    padding-top: 100px;
 }
 
 .elemento1{
     font-size: 45px;
+    background-color: #003824;
+    color: #37B888;
 }
 .elemento2{
     font-size: 25px;
 }
 .elemento3{
     font-size: 35px;
+    background-color: #003824;
+    color: #37B888;
 }
 .elemento4{
     font-size: 50px;
